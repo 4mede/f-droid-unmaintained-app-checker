@@ -8,7 +8,7 @@ class Result:
     comfirmed: bool
     """ is the result reliable """
     repo_deleted: bool
-    repo_archived: bool
+    repo_unmaintained: bool
     repo_real: str
     """ the real URL after redirects """
     error: Optional[Exception]
