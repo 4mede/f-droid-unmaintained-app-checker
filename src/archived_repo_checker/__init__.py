@@ -20,7 +20,6 @@ def check_all(response: httpx.Response) -> tuple[bool, bool]:
         methods.github_check,
         methods.gitlab_check,
         methods.gitea_check,
-        methods.gitee_check,
     ]
     for func in funcs:
         logger.debug(f"exec {func.__name__}")
